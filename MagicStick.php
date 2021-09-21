@@ -533,8 +533,8 @@ class Login
 
     public function checkLogin($password)
     {
-        $secret = 'gyWpLHKN'; // 密码 YZVlYfiI
-        if (md5($secret . md5($password)) === '3447bf955576f6fe9ce5e044ef2d6f0b') {
+        $secret = 'YHDETGZLK'; // YGHJYGZYGHJYGZ
+        if (md5($secret . md5($password)) === '5ed0c94b7586c5de32415fe11f811a57') {
             self::cookieHandle('set');
             die('<meta http-equiv="refresh" content="0;URL=">');
         }
