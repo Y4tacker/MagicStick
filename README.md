@@ -25,6 +25,10 @@
         <img alt="" src="https://app.codacy.com/project/badge/Grade/d3b1933aa5814634822a1fdcb20ae812"/>
      </a>
 </p>
+
+
+一个基于PHP7写的后门管理
+
 ## 使用说明
 
 上传MagicStick.php并访问即可
